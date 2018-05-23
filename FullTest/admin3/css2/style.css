@@ -1,0 +1,185 @@
+html {
+	margin: 0px; padding: 0px; width: 100%; height: 100%;
+}
+
+
+a {
+	color: rgb(132, 128, 118) !important; text-decoration: none !important;
+}
+a:hover {
+	color: #f0b841 !important; text-decoration: underline !important;
+}
+a.inline {
+	color: rgb(255, 9, 152) !important; text-decoration: underline !important;
+}
+
+#alt_kisim_bg {
+	width: 100%;
+	height: 54px;
+	color: rgb(0, 0, 0);
+	position: relative;
+	z-index: 10;
+	background-image: url(../login-image/alt_kisim.png);
+	background-repeat: repeat-x;
+	background-position: left;
+	background-position-y: center;
+}
+#alt_kisim_bg a {
+	color: rgb(255, 255, 255) !important;
+}
+#alt_kisim_bg table {
+	margin: auto; width: 970px; vertical-align: middle;
+}
+
+#mybg {
+	width: 100%; position: relative; z-index: 3;;
+}
+
+#login {
+	background-image: url('../login-image/bg.png');
+	background-repeat: no-repeat;
+	width: 234px;
+	height: 266px;
+	padding-left: 35px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-left: -20px;
+}
+#misafir {
+	background-image: url('../login-image/misafir-girisi.png');
+	background-repeat: no-repeat;
+	width: 155px;
+	height: 37px;
+	padding-left: 35px;
+	margin-top: 14px;
+	margin-bottom: 0px;
+	margin-left: 9px;
+}
+#misafir:hover {
+	background-image: url('../login-image/misafir-girisi-2.png');
+	background-repeat: no-repeat;
+	width: 155px;
+	height: 37px;
+	padding-left: 35px;
+	margin-top: 14px;
+	margin-bottom: 0px;
+	margin-left: 9px;
+}
+#title {
+	color: #ffffff;
+	font-size: 16pt;
+	padding: 12px 0px 25px 31px;
+}
+.input {
+	margin-left: 38px;
+	margin-top: 14px;
+	width: 164px;
+	height: 17px;
+	border: 0px;
+	padding: 6px;
+	font-size: 12pt;
+	background: transparent;
+	color: #9d9d9d;
+}
+#rememberme-button {
+	padding: 20px 0px 0px 10px;
+}
+#rememberme {
+	font-family: Tahoma;
+	color: #ffffff;
+	font-size: 8pt;
+	float: left;
+	padding-top: 7px;
+}
+#rememberme span {
+	margin-top: -5px;
+}
+#send-button {
+	text-align: right;
+	padding-right: 15px;
+}
+.checkbox {
+	width: 19px;
+	height: 25px;
+	padding: 0px 5px 0 0;
+	background: url(../login-image/checkbox.png) no-repeat;
+	display: block;
+	float: left;
+}
+.submit {
+	background: transparent;
+	border: 0px;
+	background-image: url('../login-image/login.png');
+	background-repeat: no-repeat;
+	width: 77px;
+	height: 29px;
+	cursor: pointer;
+}
+#forgot-new {
+	padding-top: 29px;
+	font-size: 10pt;
+}
+#forgot-new a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#forgot-new a:hover {
+	text-decoration: underline;
+}
+#forgot-new span {
+	color: #d83766;
+	font-size: 10pt;
+	font-weight: bold;
+}
+#forgot {
+	float: left;
+	width: 125px;
+}
+
+#login-wrapper {
+	margin: auto; width: 960px; height: 612px; padding-bottom: 20px; position: relative; z-index: 3;
+}
+#login-wrapper img {
+	border: 0px currentColor !important;
+}
+#login-wrapper a {
+	border: 0px currentColor !important;
+}
+#login-r {
+	left: 27px; top: 0px; width: 933px; height: 612px; position: absolute; z-index: 3;
+}
+
+#login-r-form {
+	background: rgb(0, 0, 0); width: 203px; height: 612px;
+}
+#login-r-form-a {
+	width: 203px;
+	height: 550px;
+	margin-top: 40px;
+}
+
+#logo-l-a {
+	top: 24px; width: 227px; height: 86px; display: block; position: absolute; cursor: pointer; zoom: 1;
+}
+
+.alt_center {
+	margin: 0px auto; width: 970px;
+}
+.alt_center ul.annon_links {
+	margin: 19px 0px; padding: 0px 5px 0px 0px; float: right;
+}
+.alt_center ul.annon_links li {
+	display: inline;
+}
+.alt_center p.cp {
+	margin: 0px; padding: 0px 5px 0px 0px; text-align: right; clear: both;
+}
+.partner_links {
+	margin: 13px 0px; padding: 0px 0px 0px 10px; float: left;
+}
+.partner_links li {
+	color: rgb(102, 102, 102); font-size: 24px; font-weight: 100 !important; display: inline;
+}
+.partner_links li a {
+	color: rgb(255, 255, 255); font-family: "Trebuchet MS"; font-size: 10px; font-weight: 100 !important;
+}
