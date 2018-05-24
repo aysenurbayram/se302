@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Home</title>
+	<link rel="stylesheet" href="assets/styles/style.min.css">
+</head>
+
+<body>
+	<div id="js__hammer" class="menumobile--overlay js__menu_close"></div>
+	<nav class="menu--navbar-wrapper">
+		<div class="menu--navbar menumobile--navbar js__menu_mobile">
+			<div class="menumobile--close-btn js__menu_close">
+				<span class="glyphicon glyphicon-remove"></span> CLOSE
+			</div>
+			<div id="menu--mobile">
+				<?php include ("menu-navigator.php"); ?>
+			</div><!--/#menu- -navbar -->
+		</div>
+	</nav><!--/.menu- -navbar-wrapper -->
+	<div class="mobile--sticky js__menu_sticky">
+		<div class="container">
+			<div class="pull-left">
+				<a href="index.html" class="logo"><img src="assets/images/logo.png" alt=""></a>
+			</div>
+			<div class="pull-right">
+				<button type="button" class="menumobile--toggle js__menu_toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header class="ossvn--header">
+			<div class="container">
+				<a href="index.html" class="logo--header"><img src="assets/images/logo.png" alt=""></a>
+				<div class="header--right">
+					<button type="button" class="menumobile--toggle js__menu_toggle">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="menu--header">
+						<ul class="menu menu--inline linkwrap--hover-line-bottom">
+							<li><a href="portfolio-1.html#"><i class="icon fa fa-user-md"></i> My Account</a></li>
+							<li><a href="portfolio-1.html#"><i class="icon icon--cart"></i> Cart</a></li>
+						</ul>
+					</div>
+					<div class="dropdown--address js__tab_plugin" data-toggle="yes" data-outside="yes">
+						<div class="dropdown--current">
+							<a class="link--color-bm" href="portfolio-1.html#"><i class="fa fa-map-marker"></i> 2955 West Ray Road Chandler, Arizona <img src="assets/images/icon-map.png" alt="" class="icon--map" /></a>
+							<i class="fa fa-chevron-down dropdown--arrow js__tab_control"></i>
+						</div>
+						<ul class="dropdown--list linkwrap--color-bm js__tab_content">
+							<li><a href="portfolio-1.html#"><i class="fa fa-map-marker"></i> 2956 West Ray Road Chandler, Arizona <img src="assets/images/icon-map.png" alt="" class="icon--map" /></a></li>
+							<li><a href="portfolio-1.html#"><i class="fa fa-map-marker"></i> 2957 West Ray Road Chandler, Arizona <img src="assets/images/icon-map.png" alt="" class="icon--map" /></a></li>
+							<li><a href="portfolio-1.html#"><i class="fa fa-map-marker"></i> 2958 West Ray Road Chandler, Arizona <img src="assets/images/icon-map.png" alt="" class="icon--map" /></a></li>
+							<li><a href="portfolio-1.html#"><i class="fa fa-map-marker"></i> 2959 West Ray Road Chandler, Arizona <img src="assets/images/icon-map.png" alt="" class="icon--map" /></a></li>
+							<li><a href="portfolio-1.html#"><i class="fa fa-map-marker"></i> 2960 West Ray Road Chandler, Arizona <img src="assets/images/icon-map.png" alt="" class="icon--map" /></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header><!--/.ossvn- -header -->
+
+		<nav class="menu--navbar-wrapper">
+			<div class="container">
+				<div class="menu--navbar animation--top menudesktop--navbar">
+					<div id="menu--navbar" class="js__auto_correct_sub_menu">
+						<?php include ("menu-navigator.php"); ?>
+					</div><!--/#menu- -navbar -->
+				</div>
+			</div>
+		</nav><!--/.menu- -navbar-wrapper -->
+		
+		<div class="text-center bg--cover bg--fixed bg--cover-dark js__background" data-background="assets/images/bg_portfolio.jpg">
+			<div class="container bg--cover-content">
+				<h2 class="title--page">Portfolio</h2>
+			</div>
+		</div>
+		
+		<div class="container">
+			<nav class="woocommerce-breadcrumb">
+				<a class="home" href="index.html">Home Page</a> / <span>Portfolio</span>
+			</nav>
+			
+			<div class="portfolio--wrap margin--bottom-50 js__isotope_wrap">
+				<ul class="portfolio--filter-control text-center js__isotope_filter">
+					<li><a href="portfolio-1.html#" class="js__filter_active" data-filter="*">All</a></li>
+					<li><a href="portfolio-1.html#" data-filter=".spring">Spring</a></li>
+					<li><a href="portfolio-1.html#" data-filter=".autumn">Autumn</a></li>
+					<li><a href="portfolio-1.html#" data-filter=".summer">Summer</a></li>
+					<li><a href="portfolio-1.html#" data-filter=".winter">Winter</a></li>
+				</ul>
+				<ul class="row text-center js__isotope_content">
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item spring">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-1.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Grapes</h4>
+								<div class="item--category">Spring</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item spring summer">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-2.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Pears</h4>
+								<div class="item--category">Spring / Summer</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item spring">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-3.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Pineapple</h4>
+								<div class="item--category">Spring</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item spring">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-4.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Broccoli Italy</h4>
+								<div class="item--category">Spring</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item spring summer winter">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-5.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Grapes</h4>
+								<div class="item--category">Spring / Summer / Winter</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item spring summer winter autumn">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-6.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Letture</h4>
+								<div class="item--category">Spring / Summer / Winter / Autumn</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item spring summer winter">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-7.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Tomato France</h4>
+								<div class="item--category">Spring / Summer / Winter</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item spring">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-8.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Cucumber</h4>
+								<div class="item--category">Spring</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item spring">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-9.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Eggplant</h4>
+								<div class="item--category">Spring</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item summer">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-10.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Plum</h4>
+								<div class="item--category">Summer</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item autumn">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-11.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Grapes</h4>
+								<div class="item--category">Autumn</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item summer">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-12.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Pomegranate</h4>
+								<div class="item--category">Summer</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item summer spring autumn">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-13.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Plum</h4>
+								<div class="item--category">Spring / Summer / Autumn</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item spring">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-14.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Strawberry</h4>
+								<div class="item--category">Spring</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item summer">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-15.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Watermelon</h4>
+								<div class="item--category">Summer</div>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-3 col-sm-6 col-mid-6 col-xs-12 js__isotope_item winter">
+						<div class="item--portfolio">
+							<a href="portfolio-detail-standard.html" class="item--thumbnail">
+								<img src="assets/images/img-portfolio-16.jpg" alt="">
+								<span><i class="icon fa fa-leaf"></i>View Detail</span>
+							</a>
+							<a href="portfolio-detail-standard.html" class="item--content">
+								<h4 class="item--title">Kiwi</h4>
+								<div class="item--category">Winter</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+				<div class="text-center portfolio--bottom">
+					<a class="button--common button--white button--hover-main button--border button--view-more" href="portfolio-1.html#">View more</a>
+				</div>
+			</div>
+			
+		</div><!-- .container -->
+		
+		<footer class="ossvn--footer">
+			<div class="container relative">
+				<div class="row">
+					<div class="col col-sm-6 col-md-3">
+						<h4 class="footer--title">About Us</h4>
+						<a href="index.html" class="footer--logo"><img src="assets/images/logo.png" alt=""></a>
+						<p>With more than 15 years of experience we can proudly say that we are one of the best in business, a trusted supplier for more than 1000 companies...</p>
+						<a href="portfolio-1.html#" class="link--color-bm link--read-more">Read more <i class="fa fa-long-arrow-right"></i></a>
+					</div>
+					<div class="col col sm-6 col-md-2">
+						<h4 class="footer--title">Infomation</h4>
+						<ul class="menu">
+							<li><a href="portfolio-1.html#">Delivery</a></li>
+							<li><a href="portfolio-1.html#">Legal Notice</a></li>
+							<li><a href="portfolio-1.html#">Terms and Conditions</a></li>
+							<li><a href="portfolio-1.html#">About Us</a></li>
+							<li><a href="portfolio-1.html#">Secure Payment</a></li>
+							<li><a href="portfolio-1.html#">Our Stores</a></li>
+						</ul>
+					</div>
+					<div class="col col-md-3 col-sm-6">
+						<h4 class="footer--title">Get It Touch</h4>
+						<ul class="list--social">
+							<li><a href="portfolio-1.html#" class="fa fa-twitter icon"></a></li>
+							<li><a href="portfolio-1.html#" class="fa fa-facebook icon"></a></li>
+							<li><a href="portfolio-1.html#" class="fa fa-google-plus icon"></a></li>
+							<li><a href="portfolio-1.html#" class="fa fa-flickr icon"></a></li>
+							<li><a href="portfolio-1.html#" class="fa fa-pinterest icon"></a></li>
+						</ul>
+						<h4 class="footer--title">Payment Accept</h4>
+						<ul class="list--payment">
+							<li><a href="portfolio-1.html#"><img src="assets/images/logo-payment-1.png" alt=""></a></li>
+							<li><a href="portfolio-1.html#"><img src="assets/images/logo-payment-2.png" alt=""></a></li>
+							<li><a href="portfolio-1.html#"><img src="assets/images/logo-payment-3.png" alt=""></a></li>
+							<li><a href="portfolio-1.html#"><img src="assets/images/logo-payment-4.png" alt=""></a></li>
+							<li><a href="portfolio-1.html#"><img src="assets/images/logo-payment-5.png" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="col col-sm-6 col-md-4">
+						<h4 class="footer--title">Get Newsletter</h4>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+						<form action="#" class="form--common form--single">
+							<input type="email" name="email" id="email-inp" class="inp-text input--common" placeholder="Enter Your Email Address">
+							<button type="submit" class="button--common button--main button--hover-dark-main">SUBSCRIBE <i class="fa fa-long-arrow-right"></i></button>
+						</form>
+					</div>
+				</div>
+			</div><!--/container -->
+			<div class="copyright">
+				<div class="container">
+					<div class="pull-left"><i>Copyright &copy; 2015 Tomoko - All Rights Reserved.</i></div>
+					<div class="pull-right">
+						<ul class="menu">
+							<li><a href="portfolio-1.html#">Contact Us</a></li>
+							<li><a href="portfolio-1.html#">Term of Use</a></li>
+							<li><a href="portfolio-1.html#">Privacy Policy</a></li>
+							<li><a href="portfolio-1.html#">Site</a></li>
+						</ul>
+						<ul class="footer--misc">
+							<li>
+								<span>Language:</span>
+								<select class="js__heapbox">
+									<option value="eng">ENG</option>
+									<option value="fr">FR</option>
+									<option value="vn">VN</option>
+								</select></li>
+								<li>
+									<span>Price:</span>
+									<select class="js__heapbox">
+										<option value="usd">USD</option>
+										<option value="vnd">VND</option>
+									</select>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer><!--/footer -->
+			<div class="back-to-top js__back_to_top"><img src="assets/images/icon-to-top.png" alt=""><br>Back To Top</div>
+		</div><!--/#wrapper -->
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://demo.comfythemes.com/tomoko-html/assets/script/html5shiv.min.js"></script>
+      <script src="http://demo.comfythemes.com/tomoko-html/assets/script/respond.min.js"></script>
+  <![endif]-->
+    <!-- Bootstrap core JavaScript
+    	================================================== -->
+    	<!-- Placed at the end of the document so the pages load faster -->
+    	<script src="assets/scripts/jquery.min.js"></script>
+    	<script src="assets/scripts/modernizr.js"></script>
+    	<script src="assets/scripts/hammer.min.js"></script>
+    	<script src="assets/scripts/owl.carousel.min.js"></script>
+    	<script src="assets/scripts/isotope.pkgd.min.js"></script>
+    	<script src="assets/scripts/jquery.heapbox-0.9.2.js"></script>
+    	<script src="assets/scripts/video.js"></script>
+    	<script src="assets/scripts/jquery.themepunch.tools.min.js"></script>
+    	<script src="assets/scripts/jquery.themepunch.revolution.min.js"></script>
+    	<script src="assets/scripts/revolution.js"></script>
+    	<script src="assets/scripts/nouislider.min.js"></script>
+    	<script src="assets/scripts/jquery.flexslider-min.js"></script>
+    	<script src="assets/scripts/jquery.animateNumber.min.js"></script>
+    	<script src="assets/scripts/main.js"></script>
+    	<script src="assets/plugin/bootstrap/js/bootstrap.min.js"></script>
+    	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    	<script src="assets/plugin/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+    </html>
